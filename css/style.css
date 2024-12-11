@@ -1,0 +1,49 @@
+:root {
+    /* Variables throughout the site */
+
+    --primary-color: #cbd953b0;
+    --text-color: #a51414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    z-index: 99;
+    background-color: var(--primary-color);
+}
+
+nav .logo img {
+    height: 80px;
+    width: 80px;
+}
+
+nav .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+main .hero {
+    background: transparent url(../bg1.jpg) no-repeat 0 -180px / cover;
+    height: 80%;
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
