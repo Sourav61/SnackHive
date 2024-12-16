@@ -204,3 +204,24 @@ main .hero .order-btn {
     color: var(--contact-btn-text);
     border: 1px solid white;
 }
+
+@media (max-width: 768px) {
+    
+    main .hero, .our-clients {
+        background-size: auto;
+    }
+
+    main .hero {
+        background-position-x: -40vw;
+    }
+
+    .clients-list, .service-cards {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 560px) {
+    main .hero {
+        background-position-x: -80vw;
+    }
+}
