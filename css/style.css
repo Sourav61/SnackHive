@@ -203,6 +203,28 @@ main .hero .order-btn {
     background-color: var(--contact-btn-bg);
     color: var(--contact-btn-text);
     border: 1px solid white;
+    cursor: pointer;
+}
+
+/** Footer **/
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    background-color: black;
+    opacity: 0.2;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 0;
 }
 
 @media (max-width: 768px) {
